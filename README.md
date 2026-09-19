@@ -359,6 +359,10 @@ Recommend Further Practice
 
 This turns static study material into an interactive learning experience.
 
+## Application Link
+
+https://quizforge-ai-xyf98uufuyqthzckjebjob.streamlit.app/
+
 ## Future Enhancements
 
 Possible future improvements include:
