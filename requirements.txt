@@ -1,4 +1,4 @@
 streamlit
-requests
-huggingface_hub
+groq
 python-dotenv
+PyPDF2
