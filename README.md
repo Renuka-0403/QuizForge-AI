@@ -260,17 +260,6 @@ A source identifier is also used to distinguish between different learning mater
 * Hash-based source identification
 * In-memory quiz and question history management
 
-## Project Structure
-
-```text
-QuizForge-AI/
-│
-├── app.py
-├── requirements.txt
-├── .env
-└── README.md
-```
-
 ## Requirements
 
 * Python 3.10 or higher
@@ -278,41 +267,11 @@ QuizForge-AI/
 * Internet connection
 * Required Python packages
 
-## Installation
-
-Clone or download the project and open the project folder in a terminal.
-
-```bash
-cd QuizForge-AI
-```
-
-Install the required dependencies:
-
-```bash
-pip install -r requirements.txt
-```
-
 ## API Key Setup
 
 Create a `.env` file in the project root directory.
 
-```env
-GROQ_API_KEY=your_groq_api_key
 ```
-
-Replace `your_groq_api_key` with your actual Groq API key.
-
-Do not share your API key publicly or upload the `.env` file to GitHub.
-
-## Run the Application
-
-Start the Streamlit application using:
-
-```bash
-streamlit run app.py
-```
-
-The application will open in your browser.
 
 ## Using QuizForge AI
 
@@ -399,22 +358,6 @@ Recommend Further Practice
 ```
 
 This turns static study material into an interactive learning experience.
-
-## Privacy and Security
-
-QuizForge AI requires a Groq API key to communicate with the AI model.
-
-The API key should be stored in the `.env` file and should not be committed to a public repository.
-
-Add `.env` to `.gitignore` before pushing the project to GitHub.
-
-Example:
-
-```text
-.env
-__pycache__/
-*.pyc
-```
 
 ## Future Enhancements
 
